@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Private Text Notes</string>
+    <string name="strEtNoteHint">your text note here...</string>
+    <string name="strBtnConfirmNote">Confirm Text Note</string>
+    <string name="strMenuItemShowTSVContents">Show TSV contents</string>
+    <string name="strMenuItemClearTSV">Clear TSV</string>
+    <string name="strMenuItemQuitApp">Quit App</string>
+</resources>

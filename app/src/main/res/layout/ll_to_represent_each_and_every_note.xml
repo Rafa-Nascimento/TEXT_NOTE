@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- when was the note taken -->
+        <TextView
+            android:id="@+id/idTvWhen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <!-- for the note's text -->
+        <TextView
+            android:id="@+id/idTvText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:src="@drawable/ic_mail_outline_black_24dp"
+        android:layout_weight="3"
+        android:id="@+id/idIBtnMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <!-- is for deleting the note -->
+    <!-- vertical layout : 3 times less space than the other component -->
+    <ImageButton
+        android:src="@drawable/ic_delete_forever_black_24dp"
+        android:layout_weight="3"
+        android:id="@+id/idIBtnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

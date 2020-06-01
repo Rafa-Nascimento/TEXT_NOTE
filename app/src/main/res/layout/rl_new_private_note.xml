@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- to always display how many items there are in the database -->
+    <TextView
+        android:id="@+id/idTvDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_below="@id/idTvDashboard"
+        android:lines="3"
+        android:id="@+id/idEtNote"
+        android:inputType="textFilter|textMultiLine|textNoSuggestions"
+        android:hint="@string/strEtNoteHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:layout_below="@id/idEtNote"
+        android:layout_above="@id/idBtnConfirmNote"
+        android:id="@+id/idLvNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/idBtnConfirmNote"
+        android:text="@string/strBtnConfirmNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
